@@ -1,0 +1,48 @@
+body{
+	background-image: url("amrita.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container{
+	background: pink;
+	width: 500px;
+	height: 400px;
+	padding: 15px;
+	margin: auto;
+	margin-top: 100px;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	padding:12px 20px;
+	box-sizing: border-box;
+	margin: 8px 0;
+	outline: none;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	font-family: verdana;
+	font-size: lem;
+	
+}
+input[type=text]:focus, input[type=password]:focus{
+	border: 2px solid #333;
+	transition: 0.6s;
+}
+input[type=submit]{
+	background: green;
+	color: white;
+	border: none;
+	padding: 15px;
+	font-family: verdana;
+	font-size: lem;
+	margin: 8px 0;
+	text-align: center;
+	width: 100%;
+}
+. forgot{
+	padding: 12px 18px;
+}
+.image{
+	border-radius: 50%;
+	padding: 10px;
+	margin-left: 180px;
+}
